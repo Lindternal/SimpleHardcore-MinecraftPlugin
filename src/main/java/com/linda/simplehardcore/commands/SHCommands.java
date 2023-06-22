@@ -75,7 +75,6 @@ public class SHCommands implements CommandExecutor {
             sender.sendMessage(ChatColor.GOLD + "/sh perks" + ChatColor.WHITE + " - " + ChatColor.AQUA + "Open perks shop");
             sender.sendMessage(ChatColor.GOLD + "/sh getl <playerName>" + ChatColor.WHITE + " - " + ChatColor.AQUA + "Get player lives");
             sender.sendMessage(ChatColor.GOLD + "/sh setl <playerName> <livesAmount>" + ChatColor.WHITE + " - " + ChatColor.AQUA + "Set player lives");
-            sender.sendMessage(ChatColor.GOLD + "/sh anime");
         }
         return true;
     }
