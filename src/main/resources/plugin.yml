@@ -1,0 +1,8 @@
+name: SimpleHardcore
+version: '${version}'
+main: com.linda.simplehardcore.SimpleHardcore
+api-version: 1.18
+commands:
+  sh:
+    description: Simple Hardcore commands.
+    usage: /<command>
