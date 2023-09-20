@@ -1,6 +1,6 @@
 ## Using
 Spigot only.
-Put .jar file in "../plugins" folder.
+Put jar file in "../plugins" folder.
 
 ## About this plugin
 This plugin limits the number of lives each player has (by default everyone has 3 lives).
