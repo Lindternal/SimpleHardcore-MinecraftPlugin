@@ -17,7 +17,7 @@ public final class SimpleHardcore extends JavaPlugin {
     @Override
     public void onEnable() {
         getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "Simple Hardcore has been enabled!");
-        getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "Simple Hardcore for 1.20.1 made by Lindternal and FallenVEye");
+        getServer().getConsoleSender().sendMessage(ChatColor.AQUA + "Simple Hardcore for 1.20.2 made by Lindternal and FallenVEye");
         getServer().getPluginManager().registerEvents(new DeathMessage(this), this);
         getServer().getPluginManager().registerEvents(new LoginLogout(this), this);
         getServer().getPluginManager().registerEvents(new ShopGUI(), this);
